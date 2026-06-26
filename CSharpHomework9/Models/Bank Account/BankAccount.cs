@@ -13,6 +13,12 @@ public class BankAccount
         OwnerName = ownerName;
         Balance = balance;
     }
-    
-    
+
+     
+    public  virtual  decimal CalculateInterest(decimal percent)
+    {
+        decimal NewBalance = Balance * (percent / 100); 
+        return NewBalance;
+    }
+
 }

@@ -1,4 +1,5 @@
-﻿using  CSharpHomework9.Models.Person;
+﻿using CSharpHomework9.Models.Bank_Account;
+using  CSharpHomework9.Models.Person;
 using CSharpHomework9.Models.Tech;
 
 //task 1
@@ -61,3 +62,17 @@ tablet.PrintInfo();
 
 ScreenSize screen = new ScreenSize("Apple","Macbook neo",500,14);
 screen.PrintInfo();
+
+//task 3 
+
+//BankAccount bankAccount = new BankAccount("51112341","nika",2500);
+//Console.WriteLine(bankAccount.CalculateInterest(0));
+
+SavingsAccount savingsAccount = new SavingsAccount("51112341","nika",2500);
+Console.WriteLine(savingsAccount.CalculateInterest(5));
+
+BusinessAccount businessAccount = new BusinessAccount("51112341","nika",2500);
+Console.WriteLine(businessAccount.CalculateInterest(3));
+
+StudentAccount studentAccount = new StudentAccount("51112341","nika",2500);
+Console.WriteLine(studentAccount.CalculateInterest(1));
