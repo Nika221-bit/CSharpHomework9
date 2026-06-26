@@ -48,6 +48,16 @@ laptop.PrintInfo();
 
 Ram ram = new Ram("Colorful", "Battle-AX 3200Mhz", 120, "Colorful Battle-AX 3200Mhz 16GB DDR4",
     16, 2, 2); 
-ram.PrintInfo();    
+ram.PrintInfo();   
 
-//რამი უნდა გაასწორო!!!
+Smartphone smartphone = new Smartphone("Apple","Iphone 17",1500,120,5000);
+smartphone.PrintInfo();
+
+CameraMP camera = new CameraMP("Canon","EOS R5",3000,6,8);
+camera.PrintInfo();
+
+Tablet tablet = new Tablet("Samsung","SM-X736 Galaxy Tab S11", 830,true,11);
+tablet.PrintInfo();
+
+ScreenSize screen = new ScreenSize("Apple","Macbook neo",500,14);
+screen.PrintInfo();

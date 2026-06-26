@@ -17,7 +17,7 @@ public class Ram:Device
     }
 
     public override void PrintInfo()
-    {
+    {   base.PrintInfo();
         Console.WriteLine($"Name: {Name}");
         Console.WriteLine($"Memory: {Memory}");
         Console.WriteLine($"You need: {Socket}free slot for it");
