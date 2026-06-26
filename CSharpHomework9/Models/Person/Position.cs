@@ -6,11 +6,11 @@ public class Position:Person
     public ulong PhoneNumber { get; set; }
     public string PositioninTeam { get; set; }
     
-    public Position(string firstName, string lastName, int age, decimal salary, ulong phoneNumber,string PositioninTeam) : base(firstName, lastName, age)
+    public Position(string firstName, string lastName, int age, decimal salary, ulong phoneNumber, string positioninTeam) : base(firstName, lastName, age)
     {
         Salary = salary;
         PhoneNumber = phoneNumber;
-        PositioninTeam = PositioninTeam;
+        PositioninTeam = positioninTeam;
     }
 
     public override void Print()
