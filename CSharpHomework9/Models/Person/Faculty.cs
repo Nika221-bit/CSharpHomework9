@@ -15,7 +15,6 @@ public class Faculty:Student
 
     public override void Print()
     {
-        Console.WriteLine("================");
         base.Print();
         Console.WriteLine($"Studentebis raodenoba : {PeopleAmount}");
         Console.WriteLine($"wliuri gadasaxadi : {Pay}");

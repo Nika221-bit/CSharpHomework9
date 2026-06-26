@@ -13,8 +13,7 @@ public class Student : Person
     }
 
     public override void Print()
-    {    
-        Console.WriteLine("================");
+    {   Console.ForegroundColor = ConsoleColor.Green;
         base.Print();
         Console.WriteLine($"email: {Email}");
         Console.WriteLine($"password: {Password}");

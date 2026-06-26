@@ -15,7 +15,9 @@ public class Person
     }
 
     public virtual void Print()
-    {
+    {   
+        Console.ForegroundColor = ConsoleColor.Green;
+        Console.WriteLine("================");
         Console.WriteLine($"{FirstName} {LastName}");
         Console.WriteLine($"Age: {Age}");
     }

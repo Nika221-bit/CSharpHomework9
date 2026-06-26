@@ -12,3 +12,4 @@ C:\Users\User\OneDrive\Desktop\CSharpHomework9\CSharpHomework9\obj\Debug\net10.0
 C:\Users\User\OneDrive\Desktop\CSharpHomework9\CSharpHomework9\obj\Debug\net10.0\CSharpHomework9.pdb
 C:\Users\User\OneDrive\Desktop\CSharpHomework9\CSharpHomework9\obj\Debug\net10.0\CSharpHomework9.genruntimeconfig.cache
 C:\Users\User\OneDrive\Desktop\CSharpHomework9\CSharpHomework9\obj\Debug\net10.0\ref\CSharpHomework9.dll
+C:\Users\User\OneDrive\Desktop\CSharpHomework9\CSharpHomework9\obj\Debug\net10.0\CSharpHomework9.sourcelink.json
